@@ -4,7 +4,7 @@
 extern "C" {
 #include "noise.h"
 }
-
+//
 #include "world.h"
 void __declspec(dllexport) create_world(int p, int q, world_func func, void *arg)
 {
