@@ -1,0 +1,18 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Intermediate\Debug\) contains files shared from another project (Craft.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  world.cpp
+d:\development\craft\src\world.cpp(21): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\development\craft\src\world.cpp(22): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\development\craft\src\world.cpp(22): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\development\craft\src\world.cpp(23): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\development\craft\src\world.cpp(24): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\development\craft\src\world.cpp(63): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\development\craft\src\world.cpp(63): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\development\craft\src\world.cpp(67): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\development\craft\src\world.cpp(67): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\development\craft\src\world.cpp(68): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\development\craft\src\world.cpp(68): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\development\craft\src\world.cpp(68): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\development\craft\src\world.cpp(79): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\development\craft\src\world.cpp(100): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     Creating library D:\Development\craft\\bin\Server.lib and object D:\Development\craft\\bin\Server.exp
+  ServerDLL.vcxproj -> D:\Development\craft\\bin\Server.dll

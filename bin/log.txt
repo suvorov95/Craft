@@ -1,0 +1,159 @@
+2016-11-18 17:28:35.839000 SERV 0.0.0.0 4081
+2016-11-18 17:31:26.888000 SERV 0.0.0.0 4081
+2016-11-18 17:31:41.682000 CONN 1 213.87.146.105 34161
+2016-11-18 17:31:41.870000 guest1 has joined the game.
+2016-11-18 17:31:46.037000 DISC 1 213.87.146.105 34161
+2016-11-18 17:31:46.038000 guest1 has disconnected from the server.
+2016-11-18 17:31:58.121000 CONN 1 192.168.1.64 60284
+2016-11-18 17:31:58.121000 guest1 has joined the game.
+2016-11-18 17:32:37.516000 CONN 2 213.87.146.105 42983
+2016-11-18 17:32:37.718000 guest2 has joined the game.
+2016-11-18 17:35:04.404000 DISC 1 192.168.1.64 60284
+2016-11-18 17:35:04.404000 guest1 has disconnected from the server.
+2016-11-18 17:36:18.874000 SERV 0.0.0.0 4081
+2016-11-18 17:36:23.173000 CONN 1 192.168.1.64 60413
+2016-11-18 17:36:23.173000 guest1 has joined the game.
+2016-11-18 17:37:07.966000 CONN 2 213.87.146.105 28976
+2016-11-18 17:37:08.176000 guest2 has joined the game.
+2016-11-18 17:40:27.818000 SERV 0.0.0.0 4081
+2016-11-18 17:40:32.922000 CONN 1 192.168.1.64 60466
+2016-11-18 17:40:32.923000 guest1 has joined the game.
+2016-11-18 17:41:00.839000 CONN 2 213.87.146.105 32294
+2016-11-18 17:41:01.077000 guest2 has joined the game.
+2016-11-18 17:41:44.767000 guest1> temno
+2016-11-18 17:42:05.482000 guest2> nihuya ne viju shrift pizdec krivo renderitsya
+2016-11-18 17:42:13.113000 guest1> norm
+2016-11-18 17:43:11.147000 guest2> UIDI NAHUY
+2016-11-18 17:43:12.818000 guest2> :D
+2016-11-18 17:44:29.780000 guest2> em
+2016-11-18 17:44:31.421000 guest2> huli
+2016-11-18 17:44:33.618000 guest2> proizoshlo
+2016-11-18 17:44:47.604000 guest1> neebu
+2016-11-18 17:49:40.339000 guest1> detstvo bl9
+2016-11-18 17:50:13.185000 guest1> kak tebe kubiki ? ))
+2016-11-18 17:51:06.051000 guest2> zbs
+2016-11-18 17:51:49.101000 guest1> tvoyu generaciyu nado peredelyvat - ne doljno byt ploskostei
+2016-11-18 17:52:11.087000 guest2> pochemu? naoborot ploskosti delal
+2016-11-18 17:52:14.132000 guest2> a to chto za huyna
+2016-11-18 17:52:16.071000 guest2> odni gori
+2016-11-18 17:53:06.771000 guest1> nu ne pryam ploskost-ploskost , a bolee ploskie gory
+2016-11-18 17:53:36.280000 guest2> polskosi toje nujni scuka
+2016-11-18 17:54:42.011000 guest1> ne takie ploskie
+2016-11-18 17:55:19.202000 guest2> scuk nikak naiti me nomu kak svet stavit
+2016-11-18 17:55:44.178000 guest2> t
+2016-11-18 17:59:27.419000 guest1> 40ooo
+2016-11-18 17:59:40.728000 guest1> kak
+2016-11-18 17:59:45.450000 guest1> light
+2016-11-18 17:59:53.166000 guest2> control pravaya knopka
+2016-11-18 18:00:12.002000 guest2> poputno nashel chto vliyaet na skorost optravki dannih
+2016-11-18 18:00:22.535000 guest2> kajdie 5 sek otpravlyatsutsya tolko
+2016-11-18 18:01:49.956000 guest2> fps to 3 prosajivaetsya choto :D
+2016-11-18 18:02:07.113000 guest2> nado reshit problemu so hriftom kak-to :D
+2016-11-18 18:02:20.879000 guest1> u menya notm
+2016-11-18 18:02:48.807000 guest2> skoree vseo s razresheniem cheto ne to
+2016-11-18 18:04:00.179000 guest1> lagaet pri razrushenii
+2016-11-18 18:04:34.954000 guest2> ebat u menya lagi kogda ti udalyaesh bloki
+2016-11-18 18:04:43.106000 guest1> toje
+2016-11-18 18:04:45.693000 guest2> vidimo zapis v bd prosajivaet nehilo
+2016-11-18 18:04:56.550000 guest2> ne v otdelnom potoke rabotaet, huli
+2016-11-18 18:05:21.623000 guest2> eba prosadka
+2016-11-18 18:05:56.789000 guest2> kak zastavit bd rabotat v otdelnom potoke ya z
+2016-11-18 18:06:00.500000 guest2> s potokami ne rabotal
+2016-11-18 18:06:06.131000 guest2> teoriyu tolko znayu
+2016-11-18 18:06:11.325000 guest2> a tut eshe b sql ebanniy
+2016-11-18 18:06:26.856000 guest2> hotya mojet delo ne v bd
+2016-11-18 18:06:34.520000 guest2> pri izemenii bloka ves chunk regeneritsya
+2016-11-18 18:06:49.856000 guest2> no generaziya chunkov v potokah
+2016-11-18 18:07:09.496000 guest2> blya lagi
+2016-11-18 18:07:16.144000 guest2> takogo ne bilo vrode
+2016-11-18 18:07:26.416000 guest1> net
+2016-11-18 18:07:34.072000 guest2> suk
+2016-11-18 18:07:41.048000 guest2> sha budu izmenyat rabotu s bd
+2016-11-18 18:07:48.732000 guest2> uberu mutexi nahuy
+2016-11-18 18:07:52.840000 guest2> posmotrim che poluchitsya
+2016-11-18 18:07:56.763000 DISC 2 213.87.146.105 32294
+2016-11-18 18:07:56.764000 guest2 has disconnected from the server.
+2016-11-18 18:08:00.583000 DISC 1 192.168.1.64 60466
+2016-11-18 18:08:00.584000 guest1 has disconnected from the server.
+2016-11-18 18:08:49.407000 SERV 0.0.0.0 4081
+2016-11-18 18:09:22.775000 CONN 1 192.168.1.64 60593
+2016-11-18 18:09:22.776000 guest1 has joined the game.
+2016-11-18 18:09:34.180000 CONN 2 213.87.146.105 34995
+2016-11-18 18:09:34.720000 guest2 has joined the game.
+2016-11-18 18:09:47.157000 guest1> norm
+2016-11-18 18:10:01.138000 guest2> uje net
+2016-11-18 18:10:13.265000 guest2> prosajivaetsya nehilo
+2016-11-18 18:10:23.144000 guest1> u men9 norm
+2016-11-18 18:10:29.034000 guest2> ne tak kak togda
+2016-11-18 18:10:30.883000 guest2> no padate
+2016-11-18 18:10:45.628000 guest2> ne cheto ne tak
+2016-11-18 18:10:47.592000 DISC 2 213.87.146.105 34995
+2016-11-18 18:10:47.592000 guest2 has disconnected from the server.
+2016-11-18 18:12:37.796000 DISC 1 192.168.1.64 60593
+2016-11-18 18:12:37.796000 guest1 has disconnected from the server.
+2016-11-18 18:13:35.276000 SERV 0.0.0.0 4081
+2016-11-18 18:13:51.224000 CONN 1 192.168.1.64 60682
+2016-11-18 18:13:51.224000 guest1 has joined the game.
+2016-11-18 18:13:59.060000 CONN 2 213.87.146.105 52833
+2016-11-18 18:13:59.280000 guest2 has joined the game.
+2016-11-18 18:14:34.847000 guest2> ne igrabeolno
+2016-11-18 18:14:55.951000 guest2> daje pri dvijenii lagi
+2016-11-18 18:15:28.627000 guest1> tolko pri lomanii
+2016-11-18 18:15:36.130000 guest2> hotya shas norm stalo bolee mene
+2016-11-18 18:15:39.813000 guest2> no vrode fps tak ne padal
+2016-11-18 18:15:44.761000 guest1> eto 9 kopal
+2016-11-18 18:15:45.133000 guest2> na tom kompe po krainei mere
+2016-11-18 18:15:59.288000 guest2> hotya i shas zaebis bilo
+2016-11-18 18:16:13.786000 guest2> a vot tut uje lagi
+2016-11-18 18:16:32.509000 guest2> stranno
+2016-11-18 18:16:34.890000 guest1> lagi v 4anke
+2016-11-18 18:16:36.845000 guest2> takoe bilo?
+2016-11-18 18:16:55.533000 guest2> iz-za regeneracii chanka scuk
+2016-11-18 18:17:00.346000 guest1> ugu
+2016-11-18 18:17:14.268000 guest2> ya parametri shuma vikrutil silno vozmojno :D
+2016-11-18 18:17:32.554000 guest2> poproboi otkrit world.cpp
+2016-11-18 18:17:38.184000 guest2> i pervii dve funkcii
+2016-11-18 18:17:42.991000 guest2> simplex2
+2016-11-18 18:17:49.517000 guest2> parametri verni na standartnie
+2016-11-18 18:17:57.248000 guest2> sravni so svoim kodom
+2016-11-18 18:18:01.695000 guest2> peresoberi vse
+2016-11-18 18:18:05.189000 guest2> i zapusti server
+2016-11-18 18:18:06.851000 DISC 2 213.87.146.105 52833
+2016-11-18 18:18:06.852000 guest2 has disconnected from the server.
+2016-11-18 18:18:10.680000 DISC 1 192.168.1.64 60682
+2016-11-18 18:18:10.680000 guest1 has disconnected from the server.
+2016-11-18 18:20:58.408000 SERV 0.0.0.0 4081
+2016-11-18 18:21:20.221000 CONN 1 192.168.1.64 60726
+2016-11-18 18:21:20.222000 guest1 has joined the game.
+2016-11-18 18:23:21.042000 DISC 1 192.168.1.64 60726
+2016-11-18 18:23:21.042000 guest1 has disconnected from the server.
+2016-11-18 18:24:41.901000 SERV 0.0.0.0 4081
+2016-11-18 18:25:46.831000 SERV 0.0.0.0 4081
+2016-11-18 18:26:17.062000 CONN 1 213.87.146.105 58097
+2016-11-18 18:26:17.351000 guest1 has joined the game.
+2016-11-18 18:26:58.550000 DISC 1 213.87.146.105 58097
+2016-11-18 18:26:58.551000 guest1 has disconnected from the server.
+2016-11-18 18:34:56.613000 CONN 1 213.87.146.105 63898
+2016-11-18 18:34:56.834000 guest1 has joined the game.
+2016-11-18 18:36:01.085000 DISC 1 213.87.146.105 63898
+2016-11-18 18:36:01.085000 guest1 has disconnected from the server.
+2016-11-18 18:46:49.517000 SERV 0.0.0.0 4081
+2016-11-18 18:47:06.877000 CONN 1 192.168.1.64 61983
+2016-11-18 18:47:06.877000 guest1 has joined the game.
+2016-11-18 18:47:20.602000 DISC 1 192.168.1.64 61983
+2016-11-18 18:47:20.602000 guest1 has disconnected from the server.
+2016-11-18 18:52:20.900000 SERV 0.0.0.0 4081
+2016-11-18 18:52:39.760000 CONN 1 192.168.1.64 62320
+2016-11-18 18:52:39.760000 guest1 has joined the game.
+2016-11-18 18:53:44.058000 DISC 1 192.168.1.64 62320
+2016-11-18 18:53:44.058000 guest1 has disconnected from the server.
+2016-11-18 18:54:18.442000 SERV 0.0.0.0 4081
+2016-11-18 18:54:44.749000 CONN 1 192.168.1.64 62420
+2016-11-18 18:54:44.749000 guest1 has joined the game.
+2016-11-18 18:54:58.216000 CONN 2 213.87.146.105 12411
+2016-11-18 18:54:58.756000 guest2 has joined the game.
+2016-11-18 18:56:58.261000 DISC 2 213.87.146.105 12411
+2016-11-18 18:56:58.262000 guest2 has disconnected from the server.
+2016-11-18 19:01:47.961000 DISC 1 192.168.1.64 62420
+2016-11-18 19:01:47.961000 guest1 has disconnected from the server.
+2016-11-18 19:03:08.181000 SERV 0.0.0.0 4081

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="deps">
+      <UniqueIdentifier>{cce27c95-6d4b-4a71-8c43-bebcef483e76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{c60dab53-9721-488a-8a91-219c15b62f74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\deps\glew\src\glew.c">
+      <Filter>deps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\noise\noise.c">
+      <Filter>deps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\sqlite\sqlite3.c">
+      <Filter>deps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\tinycthread\tinycthread.c">
+      <Filter>deps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Window.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\auth.cpp" />
+    <ClCompile Include="..\src\client.cpp" />
+    <ClCompile Include="..\src\cube.cpp" />
+    <ClCompile Include="..\src\db.cpp" />
+    <ClCompile Include="..\src\item.cpp" />
+    <ClCompile Include="..\src\map.cpp" />
+    <ClCompile Include="..\src\matrix.cpp" />
+    <ClCompile Include="..\src\ring.cpp" />
+    <ClCompile Include="..\src\sign.cpp" />
+    <ClCompile Include="..\src\util.cpp" />
+    <ClCompile Include="..\src\world.cpp" />
+    <ClCompile Include="..\deps\lodepng\lodepng.cpp">
+      <Filter>deps</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\auth.h" />
+    <ClInclude Include="..\src\client.h" />
+    <ClInclude Include="..\src\config.h" />
+    <ClInclude Include="..\src\cube.h" />
+    <ClInclude Include="..\src\db.h" />
+    <ClInclude Include="..\src\item.h" />
+    <ClInclude Include="..\src\map.h" />
+    <ClInclude Include="..\src\matrix.h" />
+    <ClInclude Include="..\src\ring.h" />
+    <ClInclude Include="..\src\sign.h" />
+    <ClInclude Include="..\src\util.h" />
+    <ClInclude Include="..\src\world.h" />
+    <ClInclude Include="..\src\Engine\Window.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
