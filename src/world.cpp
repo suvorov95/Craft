@@ -4,7 +4,7 @@
 extern "C" {
 #include "noise.h"
 }
-//tests
+//tet
 #include "world.h"
 void __declspec(dllexport) create_world(int p, int q, world_func func, void *arg)
 {
@@ -19,9 +19,9 @@ void __declspec(dllexport) create_world(int p, int q, world_func func, void *arg
 			int z = q * CHUNK_SIZE + dz;
 			float f = simplex2(x * 0.001, z * 0.001, 1, 1.5, 2);
 			float g = simplex2(-x * 0.003, -z * 0.003, 2, 3.5, 1);
-			int mh = g * 64; //высота гор
-			int h = f * mh + 56; //общая высота мира
-			int w = 1; //блок травы
+			int mh = g * 64; //ГўГ»Г±Г®ГІГ  ГЈГ®Г°
+			int h = f * mh + 56; //Г®ГЎГ№Г Гї ГўГ»Г±Г®ГІГ  Г¬ГЁГ°Г 
+			int w = 1; //ГЎГ«Г®ГЄ ГІГ°Г ГўГ»
 
 			for (int y = 0; y < h && y < 200; y++) {
 
@@ -48,7 +48,7 @@ void __declspec(dllexport) create_world(int p, int q, world_func func, void *arg
 				}
 			}
 
-			for (int y = 40; y < 64; y++) { //на уровнях от 40 до 64 - вода
+			for (int y = 40; y < 64; y++) { //Г­Г  ГіГ°Г®ГўГ­ГїГµ Г®ГІ 40 Г¤Г® 64 - ГўГ®Г¤Г 
 				if (h <= 64 && w != 6)
 				{
 					h = 64;
@@ -60,12 +60,12 @@ void __declspec(dllexport) create_world(int p, int q, world_func func, void *arg
 				if (SHOW_PLANTS) {
 					// grass
 					if (simplex2(-x * 0.1, z * 0.1, 4, 0.8, 2) > 0.6) {
-						if (h > 64 && w != 2) func(x, h, z, 17 * flag, arg); // если высота выше уровня моря и это не море - то трава
+						if (h > 64 && w != 2) func(x, h, z, 17 * flag, arg); // ГҐГ±Г«ГЁ ГўГ»Г±Г®ГІГ  ГўГ»ГёГҐ ГіГ°Г®ГўГ­Гї Г¬Г®Г°Гї ГЁ ГЅГІГ® Г­ГҐ Г¬Г®Г°ГҐ - ГІГ® ГІГ°Г ГўГ 
 					}
 					// flowers
 					if (simplex2(x * 0.05, -z * 0.05, 4, 0.8, 2) > 0.7) {
 						int w = 18 + simplex2(x * 0.1, z * 0.1, 4, 0.8, 2) * 7;
-						if (h > 64 && w != 2) func(x, h, z, w * flag, arg);  // если высота выше уровня моря и это не море - то цветы, деревья в коде ниже
+						if (h > 64 && w != 2) func(x, h, z, w * flag, arg);  // ГҐГ±Г«ГЁ ГўГ»Г±Г®ГІГ  ГўГ»ГёГҐ ГіГ°Г®ГўГ­Гї Г¬Г®Г°Гї ГЁ ГЅГІГ® Г­ГҐ Г¬Г®Г°ГҐ - ГІГ® Г¶ГўГҐГІГ», Г¤ГҐГ°ГҐГўГјГї Гў ГЄГ®Г¤ГҐ Г­ГЁГ¦ГҐ
 					}
 				}
 				// trees
